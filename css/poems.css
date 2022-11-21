@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.wrapper-main ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.wrapper-main .logo{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+}
+
+.poems-link a{
+    border-radius:20px;
+    background-color: white;
+    color: #2b1055;
+}
