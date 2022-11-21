@@ -30,6 +30,6 @@ window.addEventListener('scroll', function(){
     mountains.style.top = -value * 0.02  + 'px';
     car.style.top = -value * 0.1 + 'px';
     car.style.left = value * 0.25 + 'px';
-
+    stickyHeader();
 })
 

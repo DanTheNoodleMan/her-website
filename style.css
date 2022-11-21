@@ -17,7 +17,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +28,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
+    background-color:rgb(43, 16, 85, 0.5);
 }
 
 .sticky + #section{
@@ -153,4 +154,10 @@ section img#car{
     color:#fff;
     width: 70%;
     margin-left: 15%;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(43, 16, 85, 1);
+    color:white;
 }
